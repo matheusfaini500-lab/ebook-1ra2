@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 import {defineConfig} from 'vite';
+const __dirname = import.meta.dirname;
 
 export default defineConfig(() => {
   return {
